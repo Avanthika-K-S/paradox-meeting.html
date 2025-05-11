@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Paradox </title>
+    <link rel= "stylesheet" href="p.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <!-- Define reusable user card -->
+<div class="user-card">
+    <div class="user-name">Aswin Asok</div>
+    <div class="user-handle">aswinasokofficial</div>
+    <div class="user-time">4 weeks ago</div>
+    <div class="user-icons">
+      <svg class="icon-edit"><use href="#icon-edit"></use></svg>
+      <svg class="icon-view"><use href="#icon-view"></use></svg>
+      <svg class="icon-delete"><use href="#icon-delete"></use></svg>
+    </div>
+  </div>
+  
+  <!-- Repeat user cards dynamically -->
+  <div class="user-list">
+    <!-- Example of a loop-generated user card -->
+    <!-- Use JavaScript or a templating engine to generate these -->
+    <div class="user-card">
+      <div class="user-name">Ananthu M P</div>
+      <div class="user-handle">ananthunandu.magic</div>
+      <div class="user-time">5 weeks ago</div>
+      <div class="user-icons">
+        <svg class="icon-edit"><use href="#icon-edit"></use></svg>
+        <svg class="icon-view"><use href="#icon-view"></use></svg>
+        <svg class="icon-delete"><use href="#icon-delete"></use></svg>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Define SVG icons in a <defs> section -->
+  <svg style="display: none;">
+    <symbol id="icon-edit" viewBox="0 0 16 16">
+      <path d="M2 11.5V14H4.5L11.8733 6.62665L9.37333 4.12665L2 11.5Z"></path>
+    </symbol>
+    <symbol id="icon-view" viewBox="0 0 16 16">
+      <path d="M8.00004 14.6666C4.31814 14.6666 1.33337 11.6818 1.33337 7.99998C1.33337 4.31808 4.31814 1.33331 8.00004 1.33331C11.6819 1.33331 14.6667 4.31808 14.6667 7.99998C14.6667 11.6818 11.6819 14.6666 8.00004 14.6666Z"></path>
+    </symbol>
+    <symbol id="icon-delete" viewBox="0 0 16 16">
+      <path d="M9.33656 1.99976V13.9998H2.00321C1.63503 13.9998 1.33655 13.7012 1.33655 13.3331V9.66645C2.25702 9.66645 3.00321 8.92025 3.00321 7.99978C3.00321 7.07932 2.25702 6.33309 1.33655 6.33309V2.66642C1.33655 2.29824 1.63503 1.99976 2.00321 1.99976H9.33656Z"></path>
+    </symbol>
+  </svg>
+</body>
+</html>
