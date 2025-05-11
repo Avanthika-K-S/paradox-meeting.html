@@ -1,0 +1,53 @@
+:root {
+    --white-color: #ffffff;
+    --white-opacity: #ffffff0a;
+    --font-family-inter: Inter, "Regular";
+    --font-size-small: 14.4px;
+    --font-size-medium: 16px;
+    --font-size-large: 20px;
+    --border-radius: 4px;
+  }
+  
+  .text {
+    color: var(--white-color);
+    font-family: var(--font-family-inter);
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  .text-small {
+    font-size: var(--font-size-small);
+  }
+  
+  .text-medium {
+    font-size: var(--font-size-medium);
+  }
+  
+  .text-large {
+    font-size: var(--font-size-large);
+  }
+  
+  .container {
+    position: absolute;
+    background-color: var(--white-opacity);
+    justify-content: start;
+    align-items: start;
+    border-radius: var(--border-radius);
+  }
+  
+  .container-small {
+    width: 31.2px;
+    height: 27.19px;
+  }
+  
+  .container-large {
+    width: 1280px;
+    height: 1px;
+  }
+  
+  .container-header {
+    left: 302px;
+    top: 16px;
+    width: 1312px;
+    height: 64px;
+  }
